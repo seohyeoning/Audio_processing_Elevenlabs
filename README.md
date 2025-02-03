@@ -10,17 +10,17 @@ Each project is designed to enhance and modify audio in unique ways.
 <table>
 <tr>
     <td align="center">
-        <h3>Voice ID & TTS</h3>
+        <h3>Voice ID & TTS 초기화면</h3>
         <img src="./VoiceID_tts/img1.PNG" />
     </td>
     <td align="center">
-        <h3>Noise Isolation</h3>
+        <h3>Voice ID & TTS 입력화면</h3>
         <img src="./VoiceID_tts/img2.PNG" />
     </td>
 </tr>
 <tr>
     <td align="center">
-        <h3>Voice Change</h3>
+        <h3>Voice ID & TTS 결과화면</h3>
         <img src="./VoiceID_tts/img3.PNG"/>
     </td>
 </tr>
@@ -29,18 +29,18 @@ Each project is designed to enhance and modify audio in unique ways.
 <table>
 <tr>
     <td align="center">
-        <h3>Voice ID & TTS</h3>
+        <h3>Voice Change 초기화면</h3>
         <img src="./Voice_change/img_1.PNG"/>
     </td>
     <td align="center">
-        <h3>Noise Isolation</h3>
-        <img src="./Audio_processing_Elevenlabs/Voice_change/img_2.PNG"/>
+        <h3>Voice Change 입력화면</h3>
+        <img src="./Voice_change/img_2.PNG"/>
     </td>
 </tr>
 <tr>
     <td align="center">
-        <h3>Voice Change</h3>
-        <img src=".s/Voice_change/img_3.PNG"/>
+        <h3>Voice Change 결과화면</h3>
+        <img src="./Voice_change/img_3.PNG"/>
     </td>
 </tr>
 </table>
@@ -48,17 +48,17 @@ Each project is designed to enhance and modify audio in unique ways.
 <table>
 <tr>
     <td align="center">
-        <h3>Voice ID & TTS</h3>
+        <h3>Noise Isolation 초기화면</h3>
         <img src="./Voice_isolation/img_1.PNG" />
     </td>
     <td align="center">
-        <h3>Noise Isolation</h3>
+        <h3>Noise Isolation 입력화면</h3>
         <img src="./Voice_isolation/img_2.PNG" />
     </td>
 </tr>
 <tr>
     <td align="center">
-        <h3>Voice Change</h3>
+        <h3>Noise Isolation 결과화면</h3>
         <img src="./Voice_isolation/img_3.PNG"/>
     </td>
 </tr>
