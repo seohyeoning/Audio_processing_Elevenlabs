@@ -1,4 +1,3 @@
-```
 # Audio (Voice) Processing Projects 🎙️🔊
 
 An advanced set of tools for processing and transforming voice data using AI-powered APIs. This repository includes three main projects:
