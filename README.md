@@ -7,6 +7,7 @@ An advanced set of tools for processing and transforming voice data using Eleven
 
 Each project is designed to enhance and modify audio in unique ways.
 
+### Voice ID & TTS
 <table>
 <tr>
     <td align="center">
@@ -26,6 +27,7 @@ Each project is designed to enhance and modify audio in unique ways.
 </tr>
 </table>
 
+### Voice Change
 <table>
 <tr>
     <td align="center">
@@ -45,20 +47,21 @@ Each project is designed to enhance and modify audio in unique ways.
 </tr>
 </table>
 
+### Voice Isolation (noise removal)
 <table>
 <tr>
     <td align="center">
-        <h3>Noise Isolation 초기화면</h3>
+        <h3>Voice Isolation 초기화면</h3>
         <img src="./Voice_isolation/img_1.PNG" />
     </td>
     <td align="center">
-        <h3>Noise Isolation 입력화면</h3>
+        <h3>Voice Isolation 입력화면</h3>
         <img src="./Voice_isolation/img_2.PNG" />
     </td>
 </tr>
 <tr>
     <td align="center">
-        <h3>Noise Isolation 결과화면</h3>
+        <h3>Voice Isolation 결과화면</h3>
         <img src="./Voice_isolation/img_3.PNG"/>
     </td>
 </tr>
