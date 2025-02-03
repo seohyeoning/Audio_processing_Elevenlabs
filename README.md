@@ -1,14 +1,14 @@
 # Audio (Voice) Processing Projects 🎙️🔊
 
-An advanced set of tools for processing and transforming voice data using Elevenlabs streaming APIs. This repository includes three main projects:
+**ElevenLabs streaming API**를 활용하여 음성 데이터를 처리하고 변환하는 고급 도구 모음입니다.  
+이 레포지토리에는 세 가지 주요 프로젝트가 포함되어 있습니다:
 
 1. **Voice ID & TTS Conversion** (`voiceID_tts_test.py`)
 2. **Background Noise Removal** (`voice_isolation_test.py`)
 3. **Voice Modification** (`voice_change_test.py`)
 
-Each project is designed to enhance and modify audio in unique ways.
+각 프로젝트는 독창적인 방법으로 음성 데이터를 강화, 수정 할 수 있도록 설계되었습니다. 
 
----
 
 ## 주요 기능 ✨
 - **Voice ID 생성**: 업로드된 음성을 기반으로 고유 Voice ID를 생성.
