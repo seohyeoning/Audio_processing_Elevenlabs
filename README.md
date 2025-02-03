@@ -7,16 +7,6 @@ An advanced set of tools for processing and transforming voice data using Eleven
 
 Each project is designed to enhance and modify audio in unique ways.
 
-
-ElevenLabs 스트리밍 API를 활용하여 음성 데이터를 처리하고 변환하는 고급 도구 모음입니다.
-이 저장소에는 다음과 같은 세 가지 주요 프로젝트가 포함되어 있습니다:
-
-1. **Voice ID & TTS Conversion** (`voiceID_tts_test.py`)
-2. **Background Noise Removal** (`voice_isolation_test.py`)
-3. **Voice Modification** (`voice_change_test.py`)
-각 프로젝트는 고유한 방식으로 오디오를 향상하고 변형하도록 설계되었습니다.
-
-
 ### Voice ID & TTS
 <table>
 <tr>
