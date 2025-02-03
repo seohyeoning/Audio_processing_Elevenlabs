@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ElevenLabs App</title>
+</head>
+<body>
+  <h1>ElevenLabs Voice App</h1>
+
+  <!-- Upload Voice -->
+  <h2>Upload Voice to Generate Voice ID</h2>
+  <form id="uploadForm">
+    <input type="file" id="voiceFile" required>
+    <button type="submit">Generate Voice ID</button>
+  </form>
+  <p id="voiceIdResult"></p>
+
+  <!-- Text-to-Speech -->
+  <h2>Text-to-Speech</h2>
+  <form id="ttsForm">
+    <input type="text" id="textInput" placeholder="Enter text..." required>
+    <input type="text" id="voiceIdInput" placeholder="Enter Voice ID..." required>
+    <button type="submit">Generate Speech</button>
+  </form>
+  <audio controls id="audioPlayer"></audio>
+
+  <script>
+    // Handle voice upload and Voice ID generation
+    document.getElementById('uploadForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const fileInput = document.getElementById('voiceFile');
+      const formData = new FormData();
+      formData.append('file', fileInput.files[0]);
+
+      const response = await fetch('/generate_voice_id', {
+        method: 'POST',
+        body: formData
+      });
+      const result = await response.json();
+      document.getElementById('voiceIdResult').innerText = result.voice_id || result.error;
+    });
+
+    // Handle text-to-speech generation
+    document.getElementById('ttsForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const textInput = document.getElementById('textInput').value;
+      const voiceIdInput = document.getElementById('voiceIdInput').value;
+
+      const response = await fetch('/text_to_speech', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text: textInput, voice_id: voiceIdInput })
+      });
+
+      if (response.ok) {
+        const audioBlob = await response.blob();
+        const audioUrl = URL.createObjectURL(audioBlob);
+        document.getElementById('audioPlayer').src = audioUrl;
+      } else {
+        const errorResult = await response.json();
+        alert(errorResult.error);
+      }
+    });
+  </script>
+</body>
+</html>

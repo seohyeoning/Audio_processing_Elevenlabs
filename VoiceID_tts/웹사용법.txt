@@ -1,0 +1,38 @@
+ElevenLabs Voice App 사용설명서
+
+소개
+ElevenLabs Voice App은 사용자가 음성을 업로드하여 Voice ID를 생성하고, 해당 Voice ID를 사용해 텍스트를 음성으로 변환(Text-to-Speech)할 수 있는 웹 애플리케이션입니다.
+
+주요 기능
+Voice ID 생성
+음성 파일을 업로드하여 고유한 Voice ID를 생성합니다.
+텍스트 음성 변환 (Text-to-Speech)
+생성된 Voice ID를 이용해 입력한 텍스트를 음성으로 변환합니다.
+
+사용 방법
+1. Voice ID 생성
+웹 페이지 상단의 "Upload Voice to Generate Voice ID" 섹션으로 이동합니다.
+"파일 선택" 버튼을 클릭하여 음성 파일(예: .wav, .mp3)을 업로드합니다.
+"Generate Voice ID" 버튼을 클릭합니다.
+성공적으로 Voice ID가 생성되면 하단에 Voice ID가 표시됩니다.
+예: Voice ID: abc123xyz
+2. 텍스트 음성 변환 (Text-to-Speech)
+"Text-to-Speech" 섹션으로 이동합니다.
+Enter text: 변환할 텍스트를 입력합니다.
+예: "Hello, how are you?"
+Enter Voice ID: 생성된 Voice ID를 입력합니다.
+예: abc123xyz
+"Generate Speech" 버튼을 클릭합니다.
+결과로 생성된 음성이 화면 하단의 오디오 플레이어에 나타납니다.
+"재생" 버튼을 눌러 음성을 확인할 수 있습니다.
+
+주의사항
+파일 포맷: 업로드 가능한 음성 파일은 일반적인 포맷(예: .wav)이어야 합니다.
+Voice ID: 텍스트 음성 변환을 사용하려면 먼저 Voice ID를 생성해야 합니다.
+오류 처리:
+Voice ID 생성 또는 텍스트 음성 변환이 실패하면, 오류 메시지가 표시됩니다. 이를 참고해 파일 형식 또는 Voice ID를 다시 확인하세요.
+
+기타 정보
+이 앱은 ElevenLabs API를 기반으로 동작합니다.
+Voice ID 및 생성된 음성 데이터는 서버와 API를 통해 처리됩니다.
+
