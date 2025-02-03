@@ -11,17 +11,17 @@ Each project is designed to enhance and modify audio in unique ways.
 <tr>
     <td align="center">
         <h3>Voice ID & TTS</h3>
-        <img src="Audio_processing_Elevenlabs/VoiceID_tts/img1.PNG" />
+        <img src="./VoiceID_tts/img1.PNG" />
     </td>
     <td align="center">
         <h3>Noise Isolation</h3>
-        <img src="Audio_processing_Elevenlabs/VoiceID_tts/img2.PNG" />
+        <img src="./VoiceID_tts/img2.PNG" />
     </td>
 </tr>
 <tr>
     <td align="center">
         <h3>Voice Change</h3>
-        <img src="Audio_processing_Elevenlabs/VoiceID_tts/img3.PNG"/>
+        <img src="./VoiceID_tts/img3.PNG"/>
     </td>
 </tr>
 </table>
@@ -30,17 +30,17 @@ Each project is designed to enhance and modify audio in unique ways.
 <tr>
     <td align="center">
         <h3>Voice ID & TTS</h3>
-        <img src="Audio_processing_Elevenlabs/Voice_change/img_1.PNG"/>
+        <img src="./Voice_change/img_1.PNG"/>
     </td>
     <td align="center">
         <h3>Noise Isolation</h3>
-        <img src="Audio_processing_Elevenlabs/Voice_change/img_2.PNG"/>
+        <img src="./Audio_processing_Elevenlabs/Voice_change/img_2.PNG"/>
     </td>
 </tr>
 <tr>
     <td align="center">
         <h3>Voice Change</h3>
-        <img src="Audio_processing_Elevenlabs/Voice_change/img_3.PNG"/>
+        <img src=".s/Voice_change/img_3.PNG"/>
     </td>
 </tr>
 </table>
@@ -49,17 +49,17 @@ Each project is designed to enhance and modify audio in unique ways.
 <tr>
     <td align="center">
         <h3>Voice ID & TTS</h3>
-        <img src="Audio_processing_Elevenlabs/Voice_isolation/img_1.PNG" />
+        <img src="./Voice_isolation/img_1.PNG" />
     </td>
     <td align="center">
         <h3>Noise Isolation</h3>
-        <img src="Audio_processing_Elevenlabs/Voice_isolation/img_2.PNG" />
+        <img src="./Voice_isolation/img_2.PNG" />
     </td>
 </tr>
 <tr>
     <td align="center">
         <h3>Voice Change</h3>
-        <img src="Audio_processing_Elevenlabs/Voice_isolation/img_3.PNG"/>
+        <img src="./Voice_isolation/img_3.PNG"/>
     </td>
 </tr>
 </table>
