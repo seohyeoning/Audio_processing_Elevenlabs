@@ -11,17 +11,17 @@ Each project is designed to enhance and modify audio in unique ways.
 <tr>
     <td align="center">
         <h3>Voice ID & TTS</h3>
-        <img src="./VoiceID_tts/img1.png" />
+        <img src="Audio_processing_Elevenlabs/VoiceID_tts/img1.png" />
     </td>
     <td align="center">
         <h3>Noise Isolation</h3>
-        <img src="./VoiceID_tts/img2.png" />
+        <img src="Audio_processing_Elevenlabs/VoiceID_tts/img2.png" />
     </td>
 </tr>
 <tr>
     <td align="center">
         <h3>Voice Change</h3>
-        <img src="./VoiceID_tts/img3.png"/>
+        <img src="Audio_processing_Elevenlabs/VoiceID_tts/img3.png"/>
     </td>
 </tr>
 </table>
@@ -30,17 +30,17 @@ Each project is designed to enhance and modify audio in unique ways.
 <tr>
     <td align="center">
         <h3>Voice ID & TTS</h3>
-        <img src="./Voice_change/img_1.png"/>
+        <img src="Audio_processing_Elevenlabs/Voice_change/img_1.png"/>
     </td>
     <td align="center">
         <h3>Noise Isolation</h3>
-        <img src="./Voice_change/img_2.png"/>
+        <img src="Audio_processing_Elevenlabs/Voice_change/img_2.png"/>
     </td>
 </tr>
 <tr>
     <td align="center">
         <h3>Voice Change</h3>
-        <img src="./Voice_change/img_3.png"/>
+        <img src="Audio_processing_Elevenlabs/Voice_change/img_3.png"/>
     </td>
 </tr>
 </table>
@@ -49,17 +49,17 @@ Each project is designed to enhance and modify audio in unique ways.
 <tr>
     <td align="center">
         <h3>Voice ID & TTS</h3>
-        <img src="./Voice_isolation/img_1.png" />
+        <img src="Audio_processing_Elevenlabs/Voice_isolation/img_1.png" />
     </td>
     <td align="center">
         <h3>Noise Isolation</h3>
-        <img src="./Voice_isolation/img_2.png" />
+        <img src="Audio_processing_Elevenlabs/Voice_isolation/img_2.png" />
     </td>
 </tr>
 <tr>
     <td align="center">
         <h3>Voice Change</h3>
-        <img src="./Voice_isolation/img_3.png"/>
+        <img src="Audio_processing_Elevenlabs/Voice_isolation/img_3.png"/>
     </td>
 </tr>
 </table>
@@ -116,5 +116,5 @@ Each project is designed to enhance and modify audio in unique ways.
 ## LICENSE 📝
 This project is licensed under the MIT License. See [LICENSE](./LICENSE) for more details. 
 </details>
-```
+
 
